@@ -1,0 +1,500 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Ph.D. student in Computer Science, Georgia Tech">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Seulbae Kim's Home Page</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans:400,700|Ubuntu:400,700&display=swap" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167100582-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-167100582-1');
+    </script>
+    <script src="https://kit.fontawesome.com/8763ea72cd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div id="container">
+    <div class="header">
+        Seulbae Kim (김슬배)
+        <p></p>
+    </div>
+
+    <blockquote>
+        <img id="photo" src="img/seulbae-2023.jpg" alt="[me]" />
+        Ph.D. in Computer Science, Georgia Institute of Technology<br/>
+        <!-- School of Cybersecurity and Privacy (SCP), College of Computing <br/> -->
+        <!-- Georgia Institute of Technology <br/> -->
+
+        <ul>
+        <li><a href="cv/cv.pdf">CV</a></li>
+        <li><a href="mailto:seulbae@gatech.edu">seulbae@gatech.edu</a></li>
+        <li><a href="https://scholar.google.co.kr/citations?user=ZCUVl9AAAAAJ&hl=en">Google Scholar</a></li>
+        <li><a href="https://github.com/squizz617">GitHub: @squizz617</a></li>
+        <li><a href="https://www.linkedin.com/in/seulbae-kim/">LinkedIn</a></li>
+        <!-- <li><a href="https://gts3.org">Systems Software & Security Lab @Georgia Tech</a></li> -->
+        </ul>
+    </blockquote>
+
+    <blockquote>
+      <p class="ad">
+      <i class="fa-solid fa-circle-info"></i>
+      I am thrilled to announce that
+      I will be joining POSTECH (Pohang University of Science and Technology)
+      as an assistant professor starting February 2024!
+      </p>
+    </blockquote>
+
+    <h1>Research Interests</h1>
+    <blockquote>
+      <b>Cyber-physical systems security (drones, self-driving vehicles, robots, IoT); Test-driven security.</b>
+
+      <p>
+      I am deeply passionate about investigating and improving the security and robustness
+      of Cyber-Physicsl Systems (CPS),
+      which encompass practical systems such as drones, self-driving vehicles,
+      robotic systems, and the Internet of Things (IoT) devices.
+      </p>
+
+<!--
+   -       <p>
+   -       Throughout the journey of pursuing my M.S. and Ph.D. degrees,
+   -       I have developed systematic testing methodologies
+   -       tailored for each building block of CPS,
+   -       including the <b>OS layer</b>
+   -       (<a class="ext" href="pubs/vuddy-sp17.pdf">VUDDY [S&P'17]</a>,
+   -       <a class="ext" href="pubs/hydra-sosp19.pdf">Hydra [SOSP'19]</a>),
+   -       <b>communication protocol layer</b> (under review),
+   -       <b>middleware layer</b> (<a class="ext" href="pubs/robofuzz-fse22.pdf">RoboFuzz [ESEC/FSE'22]</a>),
+   -       and <b>application/logic layer</b> (<a class="ext" href="pubs/drivefuzz-ccs22.pdf">DriveFuzz [CCS'22]</a>).
+   -       These work have facilitated comprehensive testing of CPS,
+   -       resulting in the discovery of critical bugs and vulnerabilities,
+   -       as documented in the respective papers published in top-tier conferences
+   -       in the fields of Security, Systems, and Software Engineering.
+   -       </p>
+   - 
+   -       <p>
+   -       In my recently submitted work,
+   -       I designed and implemented a fuzzer
+   -       for a widely-used communication protocol in Cyber-Physical Systems.
+   -       This fuzzer successfully uncovered numerous zero-day vulnerabilities, resulting in CVEs,
+   -       and also identified specification violations within popular implementations of the protocol.
+   -       Currently, the work is under review.
+   -       </p>
+   - 
+   -       <p>
+   -       I am actively engaged in several fascinating projects at the moment.
+   -       These include
+   -       the preemptive physical security measures for robotic vehicles,
+   -       automated causality analysis of robotic bugs,
+   -       and the development of robust attack detection mechanisms under varying physical properties,
+   -       to name just a few.
+   -       </p>
+   -->
+    </blockquote>
+
+    <h1>Publications</h1>
+    <ol>
+        <li class="pub pub-2022">
+            <span class="title">DriveFuzz: Discovering Autonomous Driving Bugs through Driving Quality-Guided Fuzzing</span>
+            <br/>
+            <u>Seulbae Kim</u>, Major Liu, Junghwan Rhee, Yuseok Jeon, Yonghwi Kwon, and Chung Hwan Kim
+            <br/>
+            <span class="conf">
+              <b>CCS'22</b>:
+              In <i>Proceedings of the 29th ACM Conference on Computer and Communications Security</i>
+              <br/>
+              Los Angeles, USA, Nov 2022
+            </span>
+            [ <a class="ext" href="pubs/drivefuzz-ccs22.pdf">
+                <i class="fa-solid fa-file-lines"></i> paper
+              </a>]
+            [ <a class="ext" href="pubs/drivefuzz-extended-ccs22.pdf">
+                <i class="fa-solid fa-file-lines"></i> extended paper
+              </a>]
+            [ <a class="ext" href="slides/drivefuzz-ccs22-slides.pdf">
+                <i class="fa-solid fa-display"></i> slides
+              </a>]
+            [ <a class="ext" href="https://gitlab.com/s3lab-code/public/drivefuzz">
+                <i class="fa-solid fa-file-code"></i> code
+              </a>]
+            [ <a class="ext" href="https://drivefuzz.autoinsight.dev/">
+                <i class="fa-solid fa-bookmark"></i> website
+              </a>]
+            [ <i class="fa-solid fa-comment-dots media"></i>
+              <a class="ext" href="https://www.cc.gatech.edu/news/cybersecurity-and-privacy-work-faculty-and-students-full-display-ccs22">news</a>
+            ]
+        </li>
+
+        <li class="pub pub-2022">
+            <span class="title">RoboFuzz: Fuzzing Robotic Systems over Robot Operating System (ROS) for Finding Correctness Bugs</span>
+            <br/>
+            <u>Seulbae Kim</u>, and Taesoo Kim
+            <br/>
+            <span class="conf">
+              <b>ESEC/FSE'22</b>:
+              In <i>Proceedings of the 30th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering</i>
+              <br/>
+              Singapore, Nov 2022
+            </span>
+            [ <a class="ext" href="pubs/robofuzz-fse22.pdf">
+                <i class="fa-solid fa-file-lines"></i> paper
+              </a>]
+            [ <a class="ext" href="slides/robofuzz-fse22-slides.pdf">
+                <i class="fa-solid fa-display"></i> slides
+              </a>]
+            [ <a class="ext" href="https://github.com/sslab-gatech/robofuzz">
+                <i class="fa-solid fa-file-code"></i> code
+              </a>]
+        </li>
+
+        <li class="pub pub-2021">
+            <span class="title">Riding the IoT Wave with VFuzz: Discovering Security Flaws in Smart Home</span>
+            <br/>
+            Carlos Nkuba, <u>Seulbae Kim</u>, Sven Dietrich, and Heejo Lee
+            <br/>
+            <span class="conf">
+              <i>IEEE Access, Vol. 10</i>
+              <br />
+              December 2021
+            </span>
+            [ <a class="ext" href="https://ieeexplore.ieee.org/document/9663293">
+                <i class="fa-solid fa-file-lines"></i> paper
+              </a> ]
+            [ <a class="ext" href="https://github.com/CNK2100/VFuzz-public">
+                <i class="fa-solid fa-file-code"></i> code
+              </a> ]
+            [ <a class="ext" href="https://kb.cert.org/vuls/id/142629">
+                <i class="fa-solid fa-bug"></i> CVEs
+              </a> ]
+        </li>
+
+        <li class="pub pub-2021">
+            <span class="title">CENTRIS: A Precise and Scalable Approach for Identifying Modified Open-Source Software Reuse</span>
+            <br/>
+            Seunghoon Woo, Sunghan Park, <u>Seulbae Kim</u>, Heejo Lee, and Hakjoo Oh
+            <br/>
+            <span class="conf">
+              <b>ICSE'21</b>:
+              In <i>Proceedings of the 43rd International Conference on Software Engineering</i>
+              <br/>
+              Virtual, May 2021
+            </span>
+            [ <a class="ext" href="pubs/centris-icse21.pdf">
+                <i class="fa-solid fa-file-lines"></i> paper
+              </a>]
+            [ <a class="ext" href="slides/centris-icse21-slides.pdf">
+                <i class="fa-solid fa-display"></i> slides
+              </a>]
+            [ <a class="ext" href="https://github.com/WOOSEUNGHOON/Centris-public">
+                <i class="fa-solid fa-file-code"></i> code
+              </a>]
+            [ <i class="fa-solid fa-comment-dots media"></i>
+              <a class="ext" href="https://portswigger.net/daily-swig/centris-new-tool-helps-prevent-software-supply-chain-attacks-by-flagging-modified-open-source-components">news 1</a>,
+              <a class="ext" href="https://www.boannews.com/media/view.asp?idx=95883">news 2 (Kor)</a>
+            ]
+            <br />
+        </li>
+
+        <li class="pub pub-2020">
+            <span class="title">Finding Bugs in File Systems with an Extensible Fuzzing Framework</span>
+            <br/>
+            <u>Seulbae Kim</u>, Meng Xu, Sanidhya Kashyap, Jungyeon Yoon, Wen Xu, and Taesoo Kim
+            <br/>
+            <span class="conf">
+              <i>ACM Transcations on Storage, Vol. 16, No.2, Article 10</i>
+              <br/>
+              May 2020
+            </span>
+            [ <a class="ext" href="pubs/hydra-tos20.pdf">
+                <i class="fa-solid fa-file-lines"></i> paper
+              </a>]
+            [ <a class="ext" href="https://dl.acm.org/doi/10.1145/3391202">
+                <i class="fa-solid fa-link"></i> ACM Library
+              </a>]
+            <br/>
+        </li>
+
+        <li class="pub pub-2019">
+            <span class="title">Finding Semantic Bugs in File Systems with an Extensible Fuzzing Framework</span>
+            <br/>
+            <u>Seulbae Kim</u>, Meng Xu, Sanidhya Kashyap, Jungyeon Yoon, Wen Xu, and Taesoo Kim
+            <br/>
+            <span class="conf">
+              <b>SOSP'19</b>:
+              In <i> Proceedings of the 27th ACM Symposium on Operating Systems Principles</i>
+              <br/>
+              Ontario, Canada, October 2019
+            </span>
+            [ <a class="ext" href="pubs/hydra-sosp19.pdf">
+                <i class="fa-solid fa-file-lines"></i> paper
+              </a>]
+            [ <a class="ext" href="slides/hydra-sosp19-slides.pdf">
+                <i class="fa-solid fa-display"></i> slides
+              </a>]
+            [ <a class="ext" href="https://www.youtube.com/watch?v=3gj9YH8AyqE">
+                <i class="fa-solid fa-video"></i> presentation
+              </a> ]
+            [ <a class="ext" href="https://github.com/sslab-gatech/hydra">
+                <i class="fa-solid fa-file-code"></i> code
+              </a>]
+            [ <a class="ext" href="https://bugzilla.kernel.org/buglist.cgi?bug_status=NEW&bug_status=ASSIGNED&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&f0=OP&f1=OP&f2=product&f3=component&f4=alias&f5=short_desc&f7=content&f8=CP&f9=CP&j1=OR&list_id=1036527&longdesc=seulbae&longdesc_type=substring&o2=substring&o3=substring&o4=substring&o5=substring&o6=substring&o7=matches&product=File%20System&query_format=advanced&resolution=---&resolution=CODE_FIX&resolution=WILL_NOT_FIX&resolution=WILL_FIX_LATER&v2=seulbae&v3=seulbae&v4=seulbae&v5=seulbae&v6=seulbae&v7=%22seulbae%22">
+                <i class="fa-solid fa-bug"></i> bugs
+              </a>]
+            [ <i class="fa-solid fa-comment-dots media"></i>
+              <a class="ext" href="https://www.scs.gatech.edu/news/628763/hydra-first-fuzzing-framework-find-any-file-system-bug">news 1</a>,
+              <a class="ext" href="https://scs.gatech.edu/news/628434/taesoo-kims-systems-group-has-strong-showing-sosp">news 2</a>
+            ]
+            <br/>
+        </li>
+
+        <li class="pub pub-2018">
+            <span class="title">Software systems at risk: An empirical study of cloned vulnerabilities in practice</span>
+            <br/>
+            <u>Seulbae Kim</u>, and Heejo Lee
+            <br/>
+            <span class="conf">
+              <i>Computers & Security, Vol. 77</i>
+              <br/>
+              August 2018
+            </span>
+            [<a class="ext" href="pubs/vuddy-cose18.pdf">
+                <i class="fa-solid fa-file-lines"></i> paper
+              </a>]
+            <br/>
+        </li>
+
+        <li class="pub pub-2017">
+            <span class="title">VUDDY: A Scalable Approach for Vulnerable Code Clone Discovery</span>
+            <br/>
+            <u>Seulbae Kim</u>, Seunghoon Woo, Heejo Lee, and Hakjoo Oh
+            <br/>
+            <span class="conf">
+              <b>S&P'17</b>:
+              In <i> Proceedings of the 38th IEEE Symposium on Security and Privacy</i>
+              <br/>
+              San Jose, CA, May 2017
+            </span>
+            [ <a class="ext" href="pubs/vuddy-sp17.pdf">
+                <i class="fa-solid fa-file-lines"></i> paper
+              </a>]
+            [ <a class="ext" href="slides/vuddy-sp17-slides.pdf">
+                <i class="fa-solid fa-display"></i> slides
+              </a>]
+            [ <a class="ext" href="https://www.youtube.com/watch?v=StybuUCDK6k">
+                <i class="fa-solid fa-video"></i> presentation
+              </a>]
+            [ <a class="ext" href="https://github.com/squizz617/vuddy">
+                <i class="fa-solid fa-file-code"></i> code
+              </a>]
+            [ <i class="fa-solid fa-comment-dots media"></i>
+              <a class="ext" href="https://www.korea.ac.kr/user/boardList.do?boardId=474633&siteId=university&page=1&id=university_060108000000&boardSeq=474672&command=albumView">news 1 (Kor)</a>,
+              <a class="ext" href="http://www.veritas-a.com/news/articleView.html?idxno=83064">news 2 (Kor)</a>
+            ]
+            <br/>
+        </li>
+
+        <li class="pub pub-2016">
+            <span class="title">SIGMATA: Storage Integrity Guaranteeing Mechanism against Tampering Attempts for Video Event Data Recorders</span>
+            <br/>
+            Hyuckmin Kwon, <u>Seulbae Kim</u>, and Heejo Lee
+            <br/>
+            <span class="conf">
+              <b>IMCIC 2016</b>:
+              In <i>Proceedings of the 7th International Multi-conference on Complexity, Informatics, and Cybernatics</i>
+              <br/>
+              Orlando, FL, March 2016.
+              <br/>
+              <i class="fa-solid fa-medal"></i> Session's best paper award
+            </span>
+            [ <a class="ext" href="pubs/sigmata-imcic16.pdf">
+                <i class="fa-solid fa-file-lines"></i> paper
+              </a> ]
+            [ <a class="ext" href="slides/sigmata-imcic16-slides.pdf">
+                <i class="fa-solid fa-display"></i> slides
+              </a> ]
+            <br/>
+        </li>
+    </ol>
+
+    <h1>Education</h1>
+    <ol>
+        <li class="edu">
+            <span class="title">Georgia Institute of Technology</span>
+            <span class="date">Aug 2018 - Dec 2023</span>
+            <br />
+            Ph.D. in Computer Science, College of Computing
+            <br />
+            Thesis: Fortifying Cyber-Physical Systems through Comprehensive Bug-finding and Mitigation
+            <br />
+            Advisor: <a class="advisor" href="https://taesoo.kim">Dr. Taesoo Kim</a>
+        </li>
+
+        <li class="edu">
+            <span class="title">Korea University</span>
+            <span class="date">Mar 2016 - Aug 2018</span>
+            <br />
+            M.S. in Computer Science and Engineering
+            <br />
+            Thesis: Scalable Approach for Code Clone Detection and its Application in Practice
+            <br />
+            Advisor: <a class="advisor" href="https://ccs.korea.ac.kr/people/heejo/">Dr. Heejo Lee</a>
+        </li>
+
+        <li class="edu">
+            <span class="title">Korea University</span>
+            <span class="date">Mar 2010 - Feb 2016</span>
+            <br />
+            B.S. in Computer Science and Engineering
+        </li>
+
+        <li class="edu">
+            <span class="title">Goyang Foreign Language High School</span>
+            <span class="date">Mar 2007 - Feb 2010</span>
+            <br />
+            Major: English, Track: Natural Science
+        </li>
+    </ol>
+
+    <h1>Teaching</h1>
+    <ul>
+      <li>
+        <span class="title">CS6265: Information Security Lab</span>
+        [ <a class="ext" href="https://tc.gts3.org/cs6265/2023"><i class="fa-solid fa-link"></i></a> ],
+        Georgia Institute of Technology
+        <span class="date">Aug 2023 - Dec 2023</span>
+        <br/>
+        Teaching assistant
+      </li>
+      <li>
+        <span class="title">CS6265: Information Security Lab</span>
+        [ <a class="ext" href="https://tc.gts3.org/cs6265/2022"><i class="fa-solid fa-link"></i></a> ],
+        Georgia Institute of Technology
+        <span class="date">Aug 2022 - Dec 2022</span>
+        <br/>
+        Teaching assistant,
+        <i class="fa-solid fa-medal"></i> Thank a Teacher award
+      </li>
+      <li>
+        <span class="title">CS6265: Information Security Lab</span>
+        [ <a class="ext" href="https://tc.gts3.org/cs6265/2021"><i class="fa-solid fa-link"></i></a> ],
+        Georgia Institute of Technology
+        <span class="date">Aug 2021 - Dec 2021</span>
+        <br/>
+        Teaching assistant
+      </li>
+      <li>
+        <span class="title">CS6265: Information Security Lab</span>
+        [ <a class="ext" href="https://tc.gts3.org/cs6265/2020-spring"><i class="fa-solid fa-link"></i></a> ],
+        Georgia Institute of Technology
+        <span class="date">Jan 2020 - Apr 2020</span>
+        <br/>
+        Teaching assistant,
+        <i class="fa-solid fa-medal"></i> Thank a Teacher award
+      </li>
+      <li>
+        <span class="title">CS6265: Information Security Lab</span>
+        [ <a class="ext" href="https://tc.gts3.org/cs6265/2019"><i class="fa-solid fa-link"></i></a> ],
+        Georgia Institute of Technology
+        <span class="date">Aug 2019 - Dec 2019</span>
+        <br/>
+        Teaching assistant,
+        <i class="fa-solid fa-medal"></i> Thank a Teacher award
+      </li>
+      <li>
+        <span class="title">CRE642: Trusted Computing</span>, Korea University
+        <span class="date">Sep 2016 - Dec 2016</span>
+        <br/>
+        Teaching assistant
+      </li>
+      <li>
+        <span class="title">CNCE220: Theory of Computation</span>, Korea University
+        <span class="date">Mar 2016 - June 2016</span>
+        <br/>
+        Teaching assistant
+      </li>
+    </ul>
+
+    <h1>Services</h1>
+    <ul>
+      <li><span class="title">External reviewer</span></li>
+        - IEEE Symposium on Security and Privacy (Oakland)
+        <span class="date">2019, 2022 (First, Second, Third)</span>
+        <br/>
+        - Usenix Security Symposium (Security)
+        <span class="date">2022 (Fall, Winter), 2023 (Fall, Winter), 2024 (Summer, Fall)</span>
+        <br/>
+        - ACM Symposium on Operating Systems Principles (SOSP)
+        <span class="date">2021</span>
+        <br/>
+        - Network and Distributed System Security Symposium (NDSS)
+        <span class="date">2020 (Summer)</span>
+        <br/>
+        - ACM Conference on Computer and Communications Security (CCS)
+        <span class="date">2019 (May), 2023 (Second)</span>
+    </ul>
+
+<!--
+   -     <h1>Talks and Presentations</h1>
+   -     <ol>
+   -         <li class="talks">
+   -             <span class="title">Finding Semantic Bugs in File Systems with an Extensible Fuzzing
+   -                 Framework</span>
+   -             <span class="date">Oct 2019</span>
+   -             <br />
+   -             Paper and poster presentation at the 27th ACM Symposium on Operating Systems
+   -                 Principles (SOSP 2019)
+   -         </li>
+   - 
+   -         <li class="talks">
+   -             <span class="title">Automated Vulnerable Code Clone Detection in Open Source, and its Best Practice</span>
+   -             <span class="date">Nov 2017</span>
+   -             <br />
+   -             Invited talk at Viterbi School of Engineering, University of Southern California
+   -         </li>
+   - 
+   -         <li class="talks">
+   -             <span class="title">Case Study and Exercise on Software Vulnerability Analysis</span>
+   -             <span class="date">Sep 2017</span>
+   -             <br />
+   -             Lecture and training session at the 3rd Korea Institute of Information Security and Cryptography (KIISC) Short-term Seminar
+   -         </li>
+   - 
+   -         <li class="talks">
+   -             <span class="title">VUDDY: A Scalable Approach for Vulnerable Code Clone Discovery</span>
+   -             <span class="date">May 2017</span>
+   -             <br />
+   -             Paper presentation at the 38th IEEE Symposium on Security and Privacy
+   -         </li>
+   - 
+   -         <li class="talks">
+   -             <span class="title">IoTcube: An Automated Analysis Platform for Finding Security Vulnerabilities</span>
+   -             <span class="date">May 2017</span>
+   -             <br />
+   -             Poster presentation at the 38th IEEE Symposium on Security and Privacy
+   -         </li>
+   - 
+   -         <li class="talks">
+   -             <span class="title">SIGMATA: Storage Integrity Guaranteeing Mechanism against Tampering Attempts for Video Event Data Recorders</span>
+   -             <span class="date">March 2016</span>
+   -             <br />
+   -             Paper presentation at the 7th Multi-Conference on Complexity, Informatics and Cybernatics
+   -         </li>
+   -     </ol>
+   -->
+
+    <div class="footer">
+      <a class="footer_text alignright">Last updated: Dec 25, 2023</a>
+    </div>
+
+</div>
+  </body>
+
+</html>
