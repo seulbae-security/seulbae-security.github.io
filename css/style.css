@@ -68,7 +68,7 @@ img {
 }
 
 .footer {
-  border-top: 2px solid #c61065;
+  border-top: 2px solid #b20e5a;
   /* background-color: #c61065; */
   display: block;
   height: 4em;
@@ -136,7 +136,7 @@ h1 {
   margin-bottom: -10px;
   /*border-top: solid 1px #2F1B25;*/
   /* text-decoration: underline; */
-  border-bottom: 2px solid #c61065;
+  border-bottom: 2px solid #b20e5a;
   display: inline-block;
 }
 
@@ -148,12 +148,12 @@ p.ad {
 
 a {
   /*color: #CA895F;*/
-  color: #c61065;
+  color: #b20e5a;
   text-decoration: none;
 }
 
 i.media {
-  color: #c61065;
+  color: #b20e5a;
 }
 
 a.advisor {
@@ -206,7 +206,7 @@ a.ext {
   display: block;
 
   border-left-width: 2px;
-  border-left-color: #F57E3A;
+  border-left-color: #f9b188;
   border-left-style: dashed;
 }
 
